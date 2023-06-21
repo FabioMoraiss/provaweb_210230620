@@ -1,0 +1,43 @@
+.bem-vindo-imagem {
+    position: relative;
+    height: 100vh;
+    background: url('img/intro.jpg') no-repeat center;
+    background-size: cover;
+  }
+
+  .bem-vindo-texto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .produto-lista {
+    background: url('img/bg.jpg');
+    padding: 20px;
+    height: 600px;
+    color: white;
+  }
+
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+    height: 400px;
+  }
+
+  .sobre-nos {
+    background: url('img/about.jpg') no-repeat center ;
+    background-size: cover;
+    padding: 100px;
+    color: black;
+    text-align: center;
+  }
+
+  footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+  }
